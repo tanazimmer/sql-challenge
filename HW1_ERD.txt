@@ -1,0 +1,43 @@
+
+departments
+-
+dept_no verchar(50) pk
+dept_name varchar(50)
+
+dept_emp
+rel employees
+rel departments
+-
+dept_no varchar(50) FK >- departments.dept_no
+emp_no int fk - employees.emp_no
+
+
+dept_manager
+rel departments
+rel employees
+-
+dept_no varchar(50) fk >- departments.dept_no
+emp_no int fk - employees.emp_no
+
+employees
+rel titles
+-
+emp_no int pk
+emp_title_id fk >- titles.title_id
+birth_date date
+first_name varchar(50)
+last_name varchar(50)
+sex varchar(50)
+hire_date date
+
+salaries
+rel employees
+-
+emp_no int pk fk - employees.emp_no
+salary int
+
+titles 
+-
+title_id varchar(50) pk
+title varchar(50)
+

@@ -87,13 +87,13 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 ## Submission
 
-* Create an image file of your ERD.
+* Create an image file of your ERD. <QuickDBD-HW.txt>
 
-* Create a `.sql` file of your table schemata.
+* Create a `.sql` file of your table schemata. <table_schemata.sql>
 
-* Create a `.sql` file of your queries.
+* Create a `.sql` file of your queries. <queries.sql>
 
-* (Optional) Create a Jupyter Notebook of the bonus analysis.
+* (Optional) Create a Jupyter Notebook of the bonus analysis. <DQL-Bonus.ipynb>
 
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
